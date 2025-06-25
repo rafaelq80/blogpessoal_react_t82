@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-    //baseURL: "https://blogpessoal-spring-t82.onrender.com",
-    baseURL: "http://localhost:8080",
+    baseURL: "https://blogpessoal-spring-t82.onrender.com",
+    //baseURL: "http://localhost:8080",
 })
 
 export const cadastrarUsuario = async (url: string, dados: object, setDados: Function) => {
